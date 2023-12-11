@@ -1,0 +1,33 @@
+/* .container,
+.row{ 
+    border: 1px solid red;
+} */
+
+:root{
+    --height: 70px;
+    --width: 70px;
+}
+
+.black{
+    height: var(--height);
+    width: var(--width);
+    background-color: #000000;
+}
+
+.yellow{
+    height: var(--height);
+    width: var(--width);
+    background-color: #f9f703;
+}
+
+.yelloworange{
+    height: var(--height);
+    width: var(--width);
+    background-color: #fad719;
+}
+
+.orange{
+    height: var(--height);
+    width: var(--width);
+    background-color: #db7134;
+}
